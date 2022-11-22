@@ -1,0 +1,69 @@
+.det-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    color: black;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.det-name {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: black;
+}
+
+.det-img {
+    width: 45%;
+    height: 45%;
+}
+
+.det-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.det-types {
+    font-size: 20px;
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.det-abilities {
+    font-size: 20px;
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.det-stats {
+    font-size: 20px;
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.det-descrip {
+    font-size: 20px;
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+/* * { 
+    border: 1px solid white;
+} */

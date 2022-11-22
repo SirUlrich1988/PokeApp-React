@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.pokedex {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  gap: 1rem;
+}
+
+.container a {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.container div {
+  background-color: #1a1a1a38;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.container img {
+  width: 100%;
+}
+
+.grid--container {
+  display: grid;
+  row-gap: 1rem;
+  align-content: center;
+  height: 100vh;
+}
+
+.container--home--img {
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home--imput {
+  text-align: center;
+}
+
+.poke-selec {
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  background-color: rgba(0, 255, 255, 0.186);
+}
+
+.poke-nav button {
+  background-color: rgba(14, 111, 118, 0.505);
+}
+
