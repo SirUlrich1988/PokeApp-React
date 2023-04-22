@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { setName } from '../app/modules/setNameSlice'
+import '../styles/home.css'
 
 const Home = () => {
   const [value, setValue] = useState('')
@@ -19,7 +20,7 @@ const Home = () => {
   return (
     <div className='grid--container'>
       <div className='container--home--img'>
-      <img className='home--img' src="https://pokedexproject1.herokuapp.com/images/Pokedex.png" alt="" />
+      <img className='home__img' src="https://www.pngall.com/wp-content/uploads/13/Pokemon-Logo-PNG-Pic.png" alt="logo pokemon" />
       </div>
       <h1 className='home-title'> Welcome, Trainer</h1>
       <p className='home-p'> Please enter your name and press enter to start the adventure.</p>
